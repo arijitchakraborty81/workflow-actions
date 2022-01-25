@@ -3,7 +3,7 @@ name: Python application
 on: [push]
 jobs:
   maven_build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
     - name: Check out the code
       uses: actions/checkout@v2
